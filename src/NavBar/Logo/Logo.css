@@ -1,0 +1,13 @@
+.logo {
+    height: 100%;
+    width: 2.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 7rem;
+    
+    transform: translateX(-2.5rem);
+}
