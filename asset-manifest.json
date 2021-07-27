@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/discount-commbank/static/css/main.e1110e14.chunk.css",
+    "main.js": "/discount-commbank/static/js/main.9bba0359.chunk.js",
+    "main.js.map": "/discount-commbank/static/js/main.9bba0359.chunk.js.map",
+    "runtime-main.js": "/discount-commbank/static/js/runtime-main.b9681db2.js",
+    "runtime-main.js.map": "/discount-commbank/static/js/runtime-main.b9681db2.js.map",
+    "static/js/2.5f6d034d.chunk.js": "/discount-commbank/static/js/2.5f6d034d.chunk.js",
+    "static/js/2.5f6d034d.chunk.js.map": "/discount-commbank/static/js/2.5f6d034d.chunk.js.map",
+    "index.html": "/discount-commbank/index.html",
+    "static/css/main.e1110e14.chunk.css.map": "/discount-commbank/static/css/main.e1110e14.chunk.css.map",
+    "static/js/2.5f6d034d.chunk.js.LICENSE.txt": "/discount-commbank/static/js/2.5f6d034d.chunk.js.LICENSE.txt",
+    "static/media/lock.a071bf86.png": "/discount-commbank/static/media/lock.a071bf86.png",
+    "static/media/logo.28a07b97.png": "/discount-commbank/static/media/logo.28a07b97.png",
+    "static/media/search.23b6707c.png": "/discount-commbank/static/media/search.23b6707c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9681db2.js",
+    "static/js/2.5f6d034d.chunk.js",
+    "static/css/main.e1110e14.chunk.css",
+    "static/js/main.9bba0359.chunk.js"
+  ]
+}
