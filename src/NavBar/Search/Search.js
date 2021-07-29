@@ -4,7 +4,7 @@ import search from './search.png'
 
 function Search(props) {
     return (
-        <button onClick={()=>{alert("Search Pressed")}}className="search">
+        <button onClick={()=>{alert("Search Pressed")}} className="search">
             <img src={search} alt="Search button"/>
         </button>
     )

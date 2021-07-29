@@ -24,3 +24,19 @@
 .linkContainer {
     display: flex;
 }
+
+.dropDown {
+    height: 5rem;
+    width: 5rem;
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropDown img{
+    height: 40%;
+    width: auto;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Links.css'
 
+import dropDownLogo from './dropdown.png'
+
 const data = [
     {text: "Banking", link: "https://www.commbank.com.au/banking.html?ei=mv_banking"},
     {text: "Home loans", link: "https://www.commbank.com.au/home-loans.html?ei=mv_home-loans"},
@@ -23,13 +25,24 @@ function NavigationLink (props) {
 }
 
 function Links (props) {
-    return (
-        <div className="linkContainer">
-            {data.map((element)=>{
-                return <NavigationLink {...element} key={element.text}/>
-            })}
-        </div>
-    )
+    const width = props.width;
+    
+    if (width > 985){
+        return (
+            <div className="linkContainer">
+                {data.map((element)=>{
+                    return <NavigationLink {...element} key={element.text}/>
+                })}
+            </div>
+        )
+    } else {
+        return (
+            <button className="dropDown" onClick={()=>{alert("dropdown pressed")}}>
+                <img src={dropDownLogo} alt="Show Drop Down Menu" />
+            </button>
+        )
+    }
+    
 }
 
 export default Links;

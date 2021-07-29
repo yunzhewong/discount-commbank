@@ -1,10 +1,16 @@
 import React from 'react';
 
+import Support from './Support/Support.js'
+import Know from './Know/Know.js'
+
+import './Help.css'
+
 function Help(props) {
     return (
-        <React.Fragment>
-            <h1>Help</h1>
-        </React.Fragment>
+        <div className="helpContainer">
+            <Support />
+            <Know />
+        </div>
 
     )
 }
