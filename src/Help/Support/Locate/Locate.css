@@ -1,1 +1,32 @@
+.locateTitle {
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
 
+.locateTitle:hover {
+    text-decoration: underline yellow 0.1rem;
+}
+
+.locateTitle h2 {
+    padding-left: 1rem;
+}
+
+.shop {
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+
+.arrow {
+    height: 2rem;
+    width: auto;
+    padding-left: 1rem;
+}
+
+.text {
+    padding-left: 4rem;
+}

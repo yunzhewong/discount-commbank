@@ -1,0 +1,46 @@
+.contactTitle {
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.contactTitle:hover {
+    text-decoration: underline yellow 0.1rem;
+}
+
+.contactTitle h2 {
+    padding-left: 1rem;
+}
+
+.phone {
+    height: 2rem;
+    width: auto;
+    padding-left: 1rem;
+}
+
+.arrow {
+    height: 2rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text * {
+    padding-left: 0.25rem;
+}
+
+.text a {
+    text-decoration: underline white 0.1rem;
+    color: white;
+}
+
+.text a:hover {
+    text-decoration: underline yellow 0.1rem;
+    color: white;
+}

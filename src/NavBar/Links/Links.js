@@ -27,7 +27,7 @@ function NavigationLink (props) {
 function Links (props) {
     const width = props.width;
     
-    if (width > 985){
+    if (width > 980){
         return (
             <div className="linkContainer">
                 {data.map((element)=>{

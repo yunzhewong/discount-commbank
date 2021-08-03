@@ -8,19 +8,11 @@ import Login from './Login/Login.js'
 function NavBar(props) {
     const width = props.width;
 
-    const ordering = [<Logo />, <Links width={width}/>]
-    const wide = width > 985;
-    let newList = []
-    if (wide) {
-        newList = ordering;
-    } else {
-        newList = ordering.reverse();
-    }
-
     return (
         <div className="container">
-            <div className={`mainlinks`}>
-                {newList}
+            <div className={"mainlinks"}>
+                <Logo className="logo"/>
+                <Links className="links" width={width}/>
             </div>
             <Search />
             <Login />

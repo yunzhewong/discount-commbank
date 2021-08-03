@@ -1,0 +1,8 @@
+.supportContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.nonFaqs{
+    width: 40%;
+}
